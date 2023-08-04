@@ -1,0 +1,109 @@
+body:not(.imagenes){
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   background-color: #D1C1E7;
+}
+
+
+.hero, .sb{
+    position:relative;
+    width:100%;
+    height:100vh;
+   ;
+
+}
+header{
+    
+    
+    margin-right: 168px;
+    display:flex;
+    width:100%;
+    padding: 1% 0;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo{
+    float: left;
+    width: 8rem;
+    margin-left: 5rem;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    margin: 2rem 2rem;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:#613ECC
+}
+.texto{
+    margin-left:8rem;
+   
+   padding-top: 15rem;
+}
+.texto h1 {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom:1rem;
+    
+    
+}
+span{
+    color: #613ECC;
+}
+.texto p{
+    color: #555;
+    line-height: 1.5rem;
+    
+}
+.imagenes{
+    width:30% ;
+    height: 70%;
+    position: absolute;
+    bottom:0 ;
+    right: 100px ;
+    margin-bottom: 2rem;
+    
+}
+.imagenes img{
+
+    
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+  
+}
+
+ .imagenes:hover #forma{
+    bottom:40px;
+ }
+ .imagenes:hover #icon{
+    left: 45%;
+ }
+ .imghabilidades{
+width: 70vh;
+display: block;
+margin: auto;
+ }
+ .sb h1 {
+
+    width: 100%;
+    text-align: center;
+   padding-top: 20px;
+ }
+ 
+ .sb p{
+    text-align: center;
+    color: #555;
+    
+ }
