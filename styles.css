@@ -1,8 +1,8 @@
-body:not(.imagenes){
+body:not(.imagenes) {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-   background-color: #D1C1E7;
+   background-color: #e4dcf1;
 }
 
 
@@ -32,7 +32,7 @@ header{
 nav ul li{
     display: inline-block;
     list-style:none;
-    margin: 2rem 2rem;
+    margin: 1rem 1rem;
 
 }
 nav ul li a{
@@ -40,13 +40,13 @@ nav ul li a{
     color:black;
     font-weight: bold;
 }
-nav ul li a:hover{
+.navbar a:hover{
     color:#613ECC
 }
 .texto{
     margin-left:8rem;
    
-   padding-top: 15rem;
+   padding-top: 10rem;
 }
 .texto h1 {
     font-size: 2.5rem;
@@ -66,17 +66,17 @@ span{
 .imagenes{
     width:30% ;
     height: 70%;
-    position: absolute;
+    position:absolute;
     bottom:0 ;
     right: 100px ;
     margin-bottom: 2rem;
-    
+    margin-bottom: 10rem;
 }
 .imagenes img{
 
     
     height: 100%;
-    position: absolute;
+    position:absolute;
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
@@ -99,11 +99,19 @@ margin: auto;
 
     width: 100%;
     text-align: center;
-   padding-top: 20px;
+   padding-top: 5rem;
  }
  
  .sb p{
     text-align: center;
     color: #555;
+    
+ }
+ .navbar{
+    color:#D1C1E7 ;
+ }
+ /* D1C1E7 */
+ .dropdown-menu{
+    background-color:#e4dcf1 ;
     
  }
